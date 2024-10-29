@@ -24,6 +24,7 @@ Hello! I’m Hruthik Vardhan, a 2nd-year BTech student at GPCET, Kurnool. Welcom
 
 Feel free to reach out if you'd like to connect:
 
-- **Email**: [hruthikwarrior@gmail.com](mailto:your-hruthikwarrior@gmail.com)
-- **LinkedIn**: [Hruthik Vardhan](https://linkedin.com/in/hruhtik-vardhan)
-- **GitHub**: [hurhtikvardhan](https://github.com/hurhtikvardhan)
+- **Email**: [hruthikwarrior@gmail.com](mailto:hruthikwarrior@gmail.com)
+- **LinkedIn**: [Hruthik Vardhan](https://www.linkedin.com/in/hruthik-vardhan)
+- **GitHub**: [Hruthikvardhan](https://github.com/Hruthikvardhan)
+
