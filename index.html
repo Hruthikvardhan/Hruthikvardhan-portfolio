@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="keywords"
@@ -22,6 +21,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!--linking fa -->
     <!-- Favicon -->
     <link
       id="favicon"
@@ -29,15 +29,15 @@
       href="./assets/images/favicon vhv.png"
       type="image/x-png"
     />
+    <!--rel tells browser it is a tab icon-->
     <title>Hruthik|portfolio</title>
   </head>
-  <body oncontextmenu="return false">
+  <body>
     <!-- navbar starts -->
     <header>
-      <a href="/" class="logo"
+      <a href="./index.html" class="logo"
         ><i class="fab fa-node-js"></i> Hruthik Vardhan
       </a>
-
       <div id="menu" class="fas fa-bars"></div>
       <nav class="navbar">
         <ul>
@@ -101,7 +101,8 @@
               <a
                 class="instagram"
                 aria-label="Instagram"
-                href="https://www.instagram.com/_hruthikwarrior_tej/"
+                href="https://www.instagram.com/hruthikwarrior_tej/"
+                target="_blank"
                 ><i class="fab fa-instagram" target="_blank"></i
               ></a>
             </li>
@@ -122,7 +123,7 @@
           draggable="false"
           class="tilt"
           src="./assets/images/Hruthik-hero.png.jpg"
-          alt=""
+          alt="Hero Imp"
         />
       </div>
     </section>
@@ -145,26 +146,33 @@
         </div>
         <div class="content">
           <h3>I'm Hruthik</h3>
-          <span class="tag">2nd cse student</span>
+          <span class="tag">3rd cse student</span>
 
           <p>
-            I am a 2nd-year BTech Computer Science Engineering student at GPCET,
-            Kurnool, with a solid foundation in Computer Science from completing
-            a diploma in CSE from Hindupur. I am deeply passionate about web
-            development and coding, always eager to improve and build upon my
-            skills.
+            I’m a 3rd-year Computer Science Engineering student at GPCET,
+            Kurnool, with a strong technical foundation built through both my
+            B.Tech studies and my Diploma in CSE. I’ve grown deeply interested
+            in full-stack development and enjoy turning ideas into real,
+            functional applications. Coding started as a curiosity, but it has
+            now become something I genuinely love doing every day.
           </p>
           <p>
-            I specialize in creating websites using HTML, CSS, and JavaScript.
-            Through personal projects and experimentation, I continuously work
-            on enhancing my knowledge and technical abilities, aiming to write
-            clean, efficient, and scalable code.
+            Most of my work revolves around building projects using Java,
+            React.js, JavaScript, Spring Boot, and databases like MySQL and
+            MongoDB. Through internships, coursework, and continuous practice,
+            I’ve gained hands-on experience developing user interfaces, backend
+            systems, and working with APIs. Each project I take up helps me
+            sharpen my problem-solving abilities and understand real-world
+            development patterns better.
           </p>
           <p>
-            Currently, I am focused on mastering frontend and backend web
-            technologies to prepare for a career as a software developer. I am
-            driven to stay updated on industry trends and incorporate best
-            practices into my work.
+            Right now, I’m focused on strengthening both my frontend and backend
+            knowledge while preparing for internships and future job roles. I
+            enjoy learning new technologies, improving my code quality, and
+            staying updated with industry practices. Whether it’s building
+            websites, exploring new frameworks, or contributing to team
+            projects, I’m always eager to grow as a developer and take on more
+            challenging work.
           </p>
 
           <div class="box-container">
@@ -175,7 +183,7 @@
             <div class="box">
               <p>
                 <a href="mailto:hruthikwarrior@gmail.com"
-                  >mail : Hruthikwarrior@gmail.com</a
+                  >mail : hruthikwarrior@gmail.com</a
                 >
               </p>
               <p><span> place : </span>Kurnool,India - 518002</p>
@@ -184,7 +192,7 @@
 
           <div class="resumebtn">
             <a
-              href="./assets/resume/Hruthikvardhan-resume.pdf.pdf"
+              href="./assets/resume/Hruthik_Vardhan_Resume.pdf"
               target="_blank"
               class="btn"
               ><span>Resume</span>
@@ -244,6 +252,26 @@
               <span>React js</span>
             </div>
           </div>
+          <div class="bar">
+            <div class="info">
+              <img
+                src="./assets/images/skills/BootStrap-skills.png"
+                width="70"
+                height="60"
+              />
+              <span>BootStrap</span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <img
+                src="./assets/images/skills/Jq-skills.png"
+                width="70"
+                height="60"
+              />
+              <span>React js</span>
+            </div>
+          </div>
         </div>
       </div>
       <!-- div 2 backend and sql-->
@@ -262,21 +290,21 @@
           <div class="bar">
             <div class="info">
               <img
-                src="./assets/images/skills/python-skills.png"
+                src="./assets/images/skills/SpringBoot-skills.png"
                 width="70"
                 height="60"
               />
-              <span>Python</span>
+              <span>SpringBoot</span>
             </div>
           </div>
           <div class="bar">
             <div class="info">
               <img
-                src="./assets/images/skills/c++-skills.png"
+                src="./assets/images/skills/python-skills.png"
                 width="70"
                 height="60"
               />
-              <span>c++</span>
+              <span>Python</span>
             </div>
           </div>
           <div class="bar">
@@ -302,11 +330,11 @@
           <div class="bar">
             <div class="info">
               <img
-                src="./assets/images/skills/oracel-skills.png"
+                src="./assets/images/skills/MongoDB-skills.png"
                 width="70"
                 height="60"
               />
-              <span>oracle</span>
+              <span>MongoDB</span>
             </div>
           </div>
         </div>
@@ -385,7 +413,74 @@
                 <a href="" class="btn" target="_blank"
                   ><i class="fas fa-eye"></i> View</a
                 >
-                <a href="" class="btn" target="_blank"
+                <a
+                  href="https://github.com/Hruthikvardhan/Hruthikvardhan-portfolio"
+                  class="btn"
+                  target="_blank"
+                  >Code <i class="fas fa-code"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box-container">
+        <div class="box tilt">
+          <img
+            draggable="false"
+            src="./assets/images/Orange-form-pic.png"
+            alt=""
+          />
+          <div class="content">
+            <div class="tag">
+              <h3>Orange Form ecommerce website</h3>
+            </div>
+            <div class="desc">
+              <p>
+                Orange Form is a simple e-commerce website where you can browse
+                and purchase fresh oranges online.
+              </p>
+              <div class="btns">
+                <a
+                  href="https://orange-forms.vercel.app/"
+                  class="btn"
+                  target="_blank"
+                  ><i class="fas fa-eye"></i> View</a
+                >
+                <a
+                  href="https://github.com/Hruthikvardhan/Orange-Forms"
+                  class="btn"
+                  target="_blank"
+                  >Code <i class="fas fa-code"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box-container">
+        <div class="box tilt">
+          <img draggable="false" src="./assets/images/YTstats-pic.png" alt="" />
+          <div class="content">
+            <div class="tag">
+              <h3>YouTube Scraper</h3>
+            </div>
+            <div class="desc">
+              <p>
+                YouTube Scraper is a simple tool where we can fetch the title,
+                likes, comments, and description for a given YouTube video URL.
+              </p>
+              <div class="btns">
+                <a
+                  href="https://github.com/Hruthikvardhan/YoutubeStats"
+                  class="btn"
+                  target="_blank"
+                  ><i class="fas fa-eye"></i> View</a
+                >
+                <a
+                  href="https://github.com/Hruthikvardhan/YoutubeStats"
+                  class="btn"
+                  target="_blank"
                   >Code <i class="fas fa-code"></i
                 ></a>
               </div>
@@ -408,6 +503,17 @@
       <h2 class="heading"><i class="fas fa-briefcase"></i> Experience</h2>
 
       <div class="timeline">
+        <div class="container left">
+          <div class="content">
+            <div class="tag">
+              <h2>Java Development Intern</h2>
+            </div>
+            <div class="desc">
+              <h3>Sure pro ED</h3>
+              <p>Feb 2024 - july 2024</p>
+            </div>
+          </div>
+        </div>
         <div class="container right">
           <div class="content">
             <div class="tag">
