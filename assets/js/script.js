@@ -65,10 +65,10 @@ document.addEventListener("visibilitychange", function () {
 // ================== TYPED.JS TEXT EFFECT ==================
 var typed = new Typed(".typing-text", {
   strings: [
-    "Frontend developer",
-    "Web developer",
-    "web designing",
-    "Backend developer",
+      "Java Developer",
+    "MERN Developer",
+    "Java Full Stack Developer",
+    "Backend Developer",
   ],
   loop: true,
   typeSpeed: 50,
